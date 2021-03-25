@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace CFB_Academia
 {
-    public partial class Form1 : Form
+    public partial class F_login : Form
     {
-        public Form1()
+        public F_login()
         {
             InitializeComponent();
-            F_login f_login = new F_login();
-            f_login.ShowDialog();
         }
     }
 }

@@ -17,3 +17,4 @@ C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.csproj
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.csproj.CopyComplete
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.exe
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.pdb
+C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.F_login.resources
