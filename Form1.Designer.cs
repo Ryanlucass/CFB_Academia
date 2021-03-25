@@ -30,11 +30,11 @@ namespace CFB_Academia
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pb_ledlogado = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lb_acesso = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.lb_nomeUsuario = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lb_acesso = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pb_ledlogado = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ledlogado)).BeginInit();
             this.SuspendLayout();
@@ -53,49 +53,51 @@ namespace CFB_Academia
             this.panel1.Size = new System.Drawing.Size(800, 35);
             this.panel1.TabIndex = 0;
             // 
-            // pb_ledlogado
+            // lb_nomeUsuario
             // 
-            this.pb_ledlogado.Location = new System.Drawing.Point(3, 5);
-            this.pb_ledlogado.Name = "pb_ledlogado";
-            this.pb_ledlogado.Size = new System.Drawing.Size(30, 27);
-            this.pb_ledlogado.TabIndex = 0;
-            this.pb_ledlogado.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Acesso: ";
-            // 
-            // lb_acesso
-            // 
-            this.lb_acesso.AutoSize = true;
-            this.lb_acesso.Location = new System.Drawing.Point(96, 9);
-            this.lb_acesso.Name = "lb_acesso";
-            this.lb_acesso.Size = new System.Drawing.Size(32, 17);
-            this.lb_acesso.TabIndex = 2;
-            this.lb_acesso.Text = "Null";
+            this.lb_nomeUsuario.AutoSize = true;
+            this.lb_nomeUsuario.Location = new System.Drawing.Point(193, 9);
+            this.lb_nomeUsuario.Name = "lb_nomeUsuario";
+            this.lb_nomeUsuario.Size = new System.Drawing.Size(20, 17);
+            this.lb_nomeUsuario.TabIndex = 4;
+            this.lb_nomeUsuario.Text = "...";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(145, 9);
+            this.label2.Location = new System.Drawing.Point(136, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Usuário:";
             // 
-            // lb_nomeUsuario
+            // lb_acesso
             // 
-            this.lb_nomeUsuario.AutoSize = true;
-            this.lb_nomeUsuario.Location = new System.Drawing.Point(212, 9);
-            this.lb_nomeUsuario.Name = "lb_nomeUsuario";
-            this.lb_nomeUsuario.Size = new System.Drawing.Size(20, 17);
-            this.lb_nomeUsuario.TabIndex = 4;
-            this.lb_nomeUsuario.Text = "...";
+            this.lb_acesso.AutoSize = true;
+            this.lb_acesso.Location = new System.Drawing.Point(98, 9);
+            this.lb_acesso.Name = "lb_acesso";
+            this.lb_acesso.Size = new System.Drawing.Size(32, 17);
+            this.lb_acesso.TabIndex = 2;
+            this.lb_acesso.Text = "Null";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(42, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 17);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Acesso: ";
+            // 
+            // pb_ledlogado
+            // 
+            this.pb_ledlogado.Image = global::CFB_Academia.Properties.Resources.led_vermelho;
+            this.pb_ledlogado.Location = new System.Drawing.Point(3, 3);
+            this.pb_ledlogado.Name = "pb_ledlogado";
+            this.pb_ledlogado.Size = new System.Drawing.Size(33, 29);
+            this.pb_ledlogado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_ledlogado.TabIndex = 0;
+            this.pb_ledlogado.TabStop = false;
             // 
             // Form1
             // 
