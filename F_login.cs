@@ -12,9 +12,11 @@ namespace CFB_Academia
 {
     public partial class F_login : Form
     {
-        public F_login()
+        Form1 form1;
+        public F_login(Form1 f)
         {
             InitializeComponent();
+            form1 = f;
         }
     }
 }

@@ -48,7 +48,7 @@ namespace CFB_Academia
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pb_ledlogado);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 415);
+            this.panel1.Location = new System.Drawing.Point(0, 397);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 35);
             this.panel1.TabIndex = 0;
@@ -103,7 +103,7 @@ namespace CFB_Academia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 432);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
