@@ -18,6 +18,8 @@ namespace CFB_Academia
             //chamando o formulário de Login 
             F_login f_login = new F_login(this);
             f_login.ShowDialog();
+
+           
         }
     }
 }

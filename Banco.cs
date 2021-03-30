@@ -51,14 +51,50 @@ namespace CFB_Academia
                     //o datatable recebe o comando
                     //"dt" está preenchido com o conteúdo que foi passado (Fill) pelo nosso "da" 
                     da.Fill(dt);
+                    ConexaoBanco().Close();
                     return dt;
                 }
             }
             catch(Exception ex)
             {
+                ConexaoBanco().Close();
                 throw ex;
             }
         }
 
+
+        //Método para genérico para consulta 
+        public static DataTable consulta(string sql)
+        {
+            SQLiteDataAdapter da = null;
+            DataTable dt = new DataTable();
+
+
+            try
+            {
+                //recebendo a conexão e uma criação de comando de códido SQL
+                using (var cmd = ConexaoBanco().CreateCommand())
+                {
+                    //passando o cmd sql para todos os usuários
+                    cmd.CommandText = sql;
+
+                    // recebe o compando e a conexão, ele pega os dados do banco
+                    da = new SQLiteDataAdapter(cmd.CommandText, ConexaoBanco());
+
+                    //o datatable recebe o comando
+                    //"dt" está preenchido com o conteúdo que foi passado (Fill) pelo nosso "da" 
+                    da.Fill(dt);
+                    ConexaoBanco().Close();
+                    return dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                ConexaoBanco().Close();
+                throw ex;
+                
+            }
+
+        }
     }
 }
