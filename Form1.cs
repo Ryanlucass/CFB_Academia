@@ -21,5 +21,25 @@ namespace CFB_Academia
 
            
         }
+
+        private void logonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_login f_login = new F_login(this);
+            f_login.ShowDialog();
+        }
+
+        private void logoffToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //converter para string, já que estou passando para um label e é um integer 
+            //Mudando Acesso
+            lb_acesso.Text = "Null";
+            //Mudando Nome de Usuário
+            lb_nomeUsuario.Text = "...";
+            //Mudando Imagem
+            pb_ledlogado.Image = Properties.Resources.led_vermelho;
+
+            Globais.nivel = 0;
+            Globais.logado = false;
+        }
     }
 }
