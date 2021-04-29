@@ -1,7 +1,7 @@
 ﻿
 namespace CFB_Academia
 {
-    partial class Form1
+    partial class Central
     {
         /// <summary>
         /// Required designer variable.
@@ -36,9 +36,16 @@ namespace CFB_Academia
             this.label1 = new System.Windows.Forms.Label();
             this.pb_ledlogado = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logoffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_usuarios = new System.Windows.Forms.ToolStripMenuItem();
+            this.mn_novousuario = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_manun = new System.Windows.Forms.ToolStripMenuItem();
+            this.mn_bd = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_login = new System.Windows.Forms.ToolStripMenuItem();
+            this.mn_logon = new System.Windows.Forms.ToolStripMenuItem();
+            this.mn_logoff = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_aluno = new System.Windows.Forms.ToolStripMenuItem();
+            this.novoAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.novoUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ledlogado)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -108,37 +115,90 @@ namespace CFB_Academia
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loginToolStripMenuItem});
+            this.m_usuarios,
+            this.m_manun,
+            this.m_login,
+            this.m_aluno});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // loginToolStripMenuItem
+            // m_usuarios
             // 
-            this.loginToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.logonToolStripMenuItem,
-            this.logoffToolStripMenuItem});
-            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
-            this.loginToolStripMenuItem.Text = "Login";
+            this.m_usuarios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mn_novousuario,
+            this.novoUsuárioToolStripMenuItem});
+            this.m_usuarios.Name = "m_usuarios";
+            this.m_usuarios.Size = new System.Drawing.Size(83, 24);
+            this.m_usuarios.Text = "Usuários ";
             // 
-            // logonToolStripMenuItem
+            // mn_novousuario
             // 
-            this.logonToolStripMenuItem.Name = "logonToolStripMenuItem";
-            this.logonToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.logonToolStripMenuItem.Text = "Logon";
-            this.logonToolStripMenuItem.Click += new System.EventHandler(this.logonToolStripMenuItem_Click);
+            this.mn_novousuario.Name = "mn_novousuario";
+            this.mn_novousuario.Size = new System.Drawing.Size(224, 26);
+            this.mn_novousuario.Text = "Gestão de Usuários";
             // 
-            // logoffToolStripMenuItem
+            // m_manun
             // 
-            this.logoffToolStripMenuItem.Name = "logoffToolStripMenuItem";
-            this.logoffToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.logoffToolStripMenuItem.Text = "Logoff";
-            this.logoffToolStripMenuItem.Click += new System.EventHandler(this.logoffToolStripMenuItem_Click);
+            this.m_manun.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mn_bd});
+            this.m_manun.Name = "m_manun";
+            this.m_manun.Size = new System.Drawing.Size(113, 24);
+            this.m_manun.Text = "Manuntenção";
             // 
-            // Form1
+            // mn_bd
+            // 
+            this.mn_bd.Name = "mn_bd";
+            this.mn_bd.Size = new System.Drawing.Size(203, 26);
+            this.mn_bd.Text = "Banco de dados ";
+            // 
+            // m_login
+            // 
+            this.m_login.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mn_logon,
+            this.mn_logoff});
+            this.m_login.Name = "m_login";
+            this.m_login.Size = new System.Drawing.Size(60, 24);
+            this.m_login.Text = "Login";
+            // 
+            // mn_logon
+            // 
+            this.mn_logon.Name = "mn_logon";
+            this.mn_logon.Size = new System.Drawing.Size(136, 26);
+            this.mn_logon.Text = "Logon";
+            this.mn_logon.Click += new System.EventHandler(this.logonToolStripMenuItem_Click);
+            // 
+            // mn_logoff
+            // 
+            this.mn_logoff.Name = "mn_logoff";
+            this.mn_logoff.Size = new System.Drawing.Size(136, 26);
+            this.mn_logoff.Text = "Logoff";
+            this.mn_logoff.Click += new System.EventHandler(this.logoffToolStripMenuItem_Click);
+            // 
+            // m_aluno
+            // 
+            this.m_aluno.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.novoAlunoToolStripMenuItem});
+            this.m_aluno.Name = "m_aluno";
+            this.m_aluno.Size = new System.Drawing.Size(62, 24);
+            this.m_aluno.Text = "Aluno";
+            // 
+            // novoAlunoToolStripMenuItem
+            // 
+            this.novoAlunoToolStripMenuItem.Name = "novoAlunoToolStripMenuItem";
+            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
+            this.novoAlunoToolStripMenuItem.Text = "Novo Aluno";
+            // 
+            // novoUsuárioToolStripMenuItem
+            // 
+            this.novoUsuárioToolStripMenuItem.Name = "novoUsuárioToolStripMenuItem";
+            this.novoUsuárioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.novoUsuárioToolStripMenuItem.Text = "Novo Usuário ";
+            this.novoUsuárioToolStripMenuItem.Click += new System.EventHandler(this.novoUsuárioToolStripMenuItem_Click);
+            // 
+            // Central
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,7 +206,7 @@ namespace CFB_Academia
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Central";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CFB Academia - v1.0";
             this.panel1.ResumeLayout(false);
@@ -168,9 +228,16 @@ namespace CFB_Academia
         public System.Windows.Forms.Label lb_nomeUsuario;
         public System.Windows.Forms.Label lb_acesso;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem loginToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem logonToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem logoffToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem m_login;
+        private System.Windows.Forms.ToolStripMenuItem mn_logon;
+        private System.Windows.Forms.ToolStripMenuItem mn_logoff;
+        private System.Windows.Forms.ToolStripMenuItem m_usuarios;
+        private System.Windows.Forms.ToolStripMenuItem mn_novousuario;
+        private System.Windows.Forms.ToolStripMenuItem m_manun;
+        private System.Windows.Forms.ToolStripMenuItem mn_bd;
+        private System.Windows.Forms.ToolStripMenuItem m_aluno;
+        private System.Windows.Forms.ToolStripMenuItem novoAlunoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem novoUsuárioToolStripMenuItem;
     }
 }
 

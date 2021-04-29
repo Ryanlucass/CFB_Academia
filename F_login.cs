@@ -13,18 +13,23 @@ namespace CFB_Academia
     public partial class F_login : Form
     {
         
-        Form1 form1;
+        Central form1;
 
         DataTable dt = new DataTable();
 
-        public F_login(Form1 f)
+        public F_login(Central f)
         {
             InitializeComponent();
             form1 = f;
+
+            
         }
         // botão Acessar 
         private void btn_logar_Click(object sender, EventArgs e)
         {
+    
+
+
             string username = tb_username.Text;
             string password = tb_password.Text;
 

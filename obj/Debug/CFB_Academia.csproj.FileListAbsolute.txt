@@ -10,7 +10,6 @@ C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\bin\Debug\EntityFramework.xml
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\bin\Debug\System.Data.SQLite.xml
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.csprojAssemblyReference.cache
-C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.Form1.resources
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.Properties.Resources.resources
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.csproj.GenerateResource.cache
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.csproj.CoreCompileInputs.cache
@@ -18,3 +17,5 @@ C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.csproj
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.exe
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.pdb
 C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.F_login.resources
+C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.F_NovoUsuario.resources
+C:\Users\lucas\Documents\CFB_Academia\CFB_Academia\obj\Debug\CFB_Academia.Central.resources

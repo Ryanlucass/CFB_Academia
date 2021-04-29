@@ -52,6 +52,7 @@ namespace CFB_Academia
             this.tb_username.Name = "tb_username";
             this.tb_username.Size = new System.Drawing.Size(179, 22);
             this.tb_username.TabIndex = 1;
+            this.tb_username.Text = "calivem";
             // 
             // label2
             // 
@@ -69,6 +70,7 @@ namespace CFB_Academia
             this.tb_password.PasswordChar = '*';
             this.tb_password.Size = new System.Drawing.Size(179, 22);
             this.tb_password.TabIndex = 3;
+            this.tb_password.Text = "r21l12rpg";
             // 
             // btn_logar
             // 
@@ -94,7 +96,7 @@ namespace CFB_Academia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(207, 203);
+            this.ClientSize = new System.Drawing.Size(211, 193);
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.btn_logar);
             this.Controls.Add(this.tb_password);
